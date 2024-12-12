@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <h1>S.M.P.S</h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="./fees.html">Fees</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <h2>Welcome to S.M.P.S</h2>
+        <p>Your future begins here</p>
+        <button>Learn More</button>
+      </section><br><br><br>
+    <div class="container">
+        <h1>Student Fee Management</h1>
+    
+        <!-- Form for adding new fee data -->
+        <div class="form">
+          <input type="text" id="studentName" placeholder="Student Name" />
+          <input type="number" id="amount" placeholder="Fee Amount" />
+          <button onclick="addFee()">Add Fee</button>
+        </div>
+    
+        <!-- Table to display fee records -->
+        <table>
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>Fee Amount</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="feeTableBody">
+            <!-- Dynamic fee records will be inserted here -->
+          </tbody>
+        </table>
+      </div>
+
+      <section class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>If you have any questions or need more information, feel free to reach out to us.</p>
+          <p>Email: info@smps.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+      </section>
+    
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2024 SMPS. All rights reserved.</p>
+      </footer>
+      <script src="./script.js"></script>
+</body>
+</html>

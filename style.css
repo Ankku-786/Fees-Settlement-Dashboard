@@ -1,0 +1,301 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #0073e6;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* Courses Section */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.course-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.course-card h2 {
+  font-size: 1.5rem;
+  color: #0073e6;
+  margin-bottom: 1rem;
+}
+
+.course-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0073e6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .course-card {
+    width: 90%;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* Header and Navigation Bar */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  background-color: #34495e;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #2c3e50;
+}
+
+/* About Section */
+.about {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about p {
+  font-size: 1.2rem;
+}
+
+/* Courses Section */
+.courses {
+  padding: 40px 0;
+}
+
+.courses .container {
+  text-align: center;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.course-item {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.course-item h3 {
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #ecf0f1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
